@@ -12,7 +12,7 @@ def onclick(args):
     opponent_selection = 1
 
     # TODO 3) Run the program again. Is the result different?
-
+    opponent_selection = random.randint(1, 3)
     selection = 1
 
     if args == "PAPER":

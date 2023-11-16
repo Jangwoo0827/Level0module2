@@ -15,7 +15,8 @@ if __name__ == '__main__':
 
     # TODO Print out 5 random numbers between -50 and 5
     for i in range(5):
-
+        number = random.randint(-50, 5)
+        print(number)
         pass
 
     # RANDOM DECIMAL NUMBERS
@@ -31,5 +32,6 @@ if __name__ == '__main__':
 
     # TODO Print out 5 random decimal numbers between -123.45 and 67.89
     for i in range(5):
-
+        number = random.uniform(-123.45, 67.89)
+        print(number)
         pass
